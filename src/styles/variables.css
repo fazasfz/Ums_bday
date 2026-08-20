@@ -1,0 +1,26 @@
+/* Google Fonts Import for Baloo 2 (headers) and Kalam (handwritten notes) */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Kalam:wght@300;400;700&display=swap');
+
+:root {
+  /* Color Tokens */
+  --pink-base: #FFD6E8;
+  --red-bow: #E63950;
+  --gold: #D4A017;
+  --marigold: #FF8C42;
+  --cream: #FFF8F3;
+
+  /* Font Tokens */
+  --font-header: 'Baloo 2', cursive, sans-serif;
+  --font-handwriting: 'Kalam', cursive;
+}
+
+@theme {
+  --color-pink-base: var(--pink-base);
+  --color-red-bow: var(--red-bow);
+  --color-gold: var(--gold);
+  --color-marigold: var(--marigold);
+  --color-cream: var(--cream);
+
+  --font-header: var(--font-header);
+  --font-handwriting: var(--font-handwriting);
+}
